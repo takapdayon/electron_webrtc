@@ -1,0 +1,18 @@
+.display {
+    height: 100vh;
+    width: 100%;
+}
+.left {
+    background: url(../static/left.jpeg) no-repeat top center;
+    background-size: cover;
+}
+.right {
+    background: url(../static/right.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+@media all and (min-width: 500px){
+    .wapper {
+        display: flex;
+    }
+}
